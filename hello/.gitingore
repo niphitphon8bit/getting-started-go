@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE and editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build directory
+bin/
+build/
+
+# Node.js modules (if using a hybrid Go + JS project)
+node_modules/
+
+# Coverage files
+coverage.out
+
+# macOS-specific files
+.DS_Store
